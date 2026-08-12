@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import { apiClient } from '../config/api'
 
+// Codespaces API pattern: https://<codespace-name>-8000.app.github.dev/api/activities
+
 export default function Activities() {
   const [activities, setActivities] = useState([])
   const [loading, setLoading] = useState(true)

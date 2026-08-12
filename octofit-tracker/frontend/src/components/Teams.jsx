@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import { apiClient } from '../config/api'
 
+// Codespaces API pattern: https://<codespace-name>-8000.app.github.dev/api/teams
+
 export default function Teams() {
   const [teams, setTeams] = useState([])
   const [loading, setLoading] = useState(true)

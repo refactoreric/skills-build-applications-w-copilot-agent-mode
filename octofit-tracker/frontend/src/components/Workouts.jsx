@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import { apiClient } from '../config/api'
 
+// Codespaces API pattern: https://<codespace-name>-8000.app.github.dev/api/workouts
+
 export default function Workouts() {
   const [workouts, setWorkouts] = useState([])
   const [loading, setLoading] = useState(true)
