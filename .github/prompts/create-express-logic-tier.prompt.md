@@ -1,7 +1,6 @@
 ---
 mode: 'agent'
-model: GPT-5.5
-description: 'Create the Node.js logic tier for the Octofit multi-tier application'
+description: 'Create the Node.js logic tier for the Octofit Tracker app'
 ---
 
 Create the logic tier in `octofit-tracker/backend` for the Octofit Tracker multi-tier application.
@@ -19,3 +18,4 @@ Requirements:
    - `/api/workouts/`
 5. Keep server port on `8000`.
 6. Add Codespaces-aware API URL support using `CODESPACE_NAME`.
+7. Keep the work compatible with GitHub Copilot free tier by using only supported prompt syntax.

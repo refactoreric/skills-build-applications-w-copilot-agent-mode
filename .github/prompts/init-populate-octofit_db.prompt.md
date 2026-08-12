@@ -1,7 +1,6 @@
 ---
 mode: 'agent'
-model: GPT-5.5
-description: 'Configure MongoDB and seed octofit_db for the Octofit multi-tier application'
+description: 'Configure MongoDB and seed octofit_db for the Octofit Tracker app'
 ---
 
 Set up and populate the data tier for `octofit-tracker/backend`.
@@ -16,3 +15,4 @@ Requirements:
    `Seed the octofit_db database with test data`.
 6. Insert realistic sample data for all collections.
 7. Verify data creation with API route responses.
+8. Keep the work compatible with GitHub Copilot free tier by using only supported prompt syntax.
