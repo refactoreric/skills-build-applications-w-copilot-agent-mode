@@ -1,11 +1,11 @@
 ---
-applyTo: "**"
+applyTo: "octofit-tracker/**"
 ---
 # Octofit Tracker Multi-tier Application Setup Guidelines
 
 ## Application goals
 
-Build an Octofit Tracker **multi-tier application** with:
+Build an Octofit Tracker multi-tier application with:
 
 - User authentication and profiles
 - Activity logging and tracking
@@ -17,6 +17,7 @@ Build an Octofit Tracker **multi-tier application** with:
 
 - Never change directories in commands.
 - Always reference target paths directly.
+- Prefer explicit path-qualified commands over shell `cd` usage.
 
 ## Forwarded ports
 
@@ -64,3 +65,9 @@ octofit-tracker/
 - `mongodb-org` is the official MongoDB package.
 - `mongosh` is the official client tool.
 - Use Mongoose models from the logic tier for schema/data work instead of ad-hoc raw scripts.
+
+## Copilot free-tier compatibility
+
+- Keep instructions plain Markdown with supported front matter only.
+- Avoid unsupported prompt metadata and advanced model overrides.
+- Favor simple, portable commands that work in standard GitHub Codespaces and local environments.
