@@ -1,3 +1,7 @@
+// Load environment variables from .env.local file
+import dotenv from 'dotenv';
+dotenv.config({ path: '.env.local' });
+
 import express from 'express';
 import './config/database';
 import usersRouter from './routes/users';
